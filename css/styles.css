@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background-color: #c2185b;
+  --gray: #777777;
+  --white: #fff;
+  --black: #000;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0px 2px 10px 0px #00000040;
+}
+
+.lista-navegacao {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+
+  list-style: none;
+}
+
+.lista-navegacao a {
+  padding: 10px;
+  text-decoration: none;
+  color: var(--gray);
+}
+
+.container-banner img {
+  width: 100%;
+}
+
+.container-style-section {
+  padding: 60px 0;
+
+  text-align: center;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 82px;
+}
+
+.style-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.off-section {
+  background-color: var(--background-color);
+  padding: 40px 0;
+  width: 100%;
+}
+
+.off-section h2 {
+  text-align: center;
+  padding: 20px 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--white);
+}
+
+.product a {
+  text-decoration: none;
+}
+
+.product-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card-figure {
+  background-color: var(--white);
+}
+
+.card-text {
+  padding: 10px;
+  color: var(--black);
+}
+
+.description-card {
+  font-weight: bold;
+}
+
+.main-product {
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.initial-conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.initial-conteiner button {
+  cursor: pointer;
+  border: 0;
+  background-color: var(--background-color);
+  font-size: 30px;
+  width: 403px;
+  height: 99px;
+  color: var(--white);
+  font-weight: bold;
+}
+
+.initial-conteiner h3 {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+  
+
+  color: var(--black);
+}
